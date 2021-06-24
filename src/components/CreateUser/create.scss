@@ -1,0 +1,65 @@
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #f1356d;
+  }
+}
+
+.create h4 {
+  color: #f1356d;
+}
+.button-create {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.add-details {
+  background-color: #ddd;
+  font-size: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.toolTip-button {
+  background-color: #f1356d;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.addEducation {
+  border: none;
+  background: white;
+  font-size: 2em;
+
+  .addEducationToolTip {
+    background-color: #f1356d;
+    border-radius: 8px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,133 @@
+.user-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  .personal-details {
+    display: flex;
+    .profile-picture {
+      .avatar {
+        border-radius: 50%;
+        border: 1px solid #f1356d;
+        width: 170px;
+        height: 170px;
+      }
+    }
+    .personal-data {
+      line-height: 34px;
+      flex: 1;
+      padding-left: 30px;
+
+      .phoneIcon,
+      .emailIcon,
+      .addressIcon,
+      .dobIcon {
+        font-size: 1.3em;
+        margin: -5px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .social-media {
+    margin-top: 20px;
+    .socialMediaIcon {
+      margin: -0.1em;
+      padding-right: 0.5em;
+    }
+    p {
+      margin-left: 1.8em;
+    }
+    .facebookIcon,
+    .linkedInIcon,
+    .twitterIcon {
+      margin-top: 20px;
+      margin-right: 15px;
+      font-size: 1.3em;
+      margin-bottom: -5px;
+    }
+  }
+
+  .education {
+    .educationIcon {
+      margin: -0.1em;
+      padding-right: 0.5em;
+    }
+    margin-top: 35px;
+    &-details {
+      display: flex;
+      margin-top: 20px;
+      margin-left: 1.8em;
+      .college-course {
+        margin-left: 20px;
+      }
+    }
+  }
+  .experience {
+    .workIcon {
+      margin: -0.1em;
+      padding-right: 0.5em;
+    }
+    flex: 1;
+    margin-top: 35px;
+    &-details {
+      display: flex;
+      margin-top: 20px;
+      margin-left: 1.8em;
+      .company-details {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .editButton,
+  .deleteButton {
+    font-size: 30px;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin-right: 30px;
+  }
+  .editToolTip,
+  .deleteToolTip {
+    background-color: #f1356d;
+    border-radius: 8px;
+    text-align: center;
+  }
+}
+
+/* Modal styles */
+.deleteModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #f1356d;
+  background: #fff;
+  overflow: auto;
+  border-radius: 10px;
+  outline: none;
+  padding: 50px;
+  text-align: center;
+
+  button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 15px;
+  }
+}
+
+.deleteOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}

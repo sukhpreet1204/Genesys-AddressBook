@@ -1,0 +1,41 @@
+.user-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .personal-details {
+        display: flex;
+        .header {
+            .avatar{
+                border-radius: 50%;
+                border: 1px solid red;
+                width: 170px;
+                height: 170px;
+            } 
+        }
+        .personal-data{
+            flex: 1;
+            padding-left: 30px;
+        }
+    }
+    .education{
+        flex: 50%;
+        margin-top: 20px;
+        &-details {
+            display: flex;
+            .college-course{
+                margin-left: 20px;
+            }
+        }
+    }
+    .experience{
+        flex: 50%;
+        margin-top: 20px;
+        &-details {
+            display: flex;
+            .company-details{
+                margin-left: 20px;
+            }
+        }
+    }
+    
+}

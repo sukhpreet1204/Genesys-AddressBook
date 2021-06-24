@@ -1,0 +1,31 @@
+.user-list {
+  height: 100%;
+  overflow: scroll;
+  background-color: rgba(211, 211, 211, 0.2);
+  .user-preview {
+    cursor: pointer;
+    padding: 10px 16px;
+    border-bottom: 1px solid #fafafa;
+
+    span {
+      padding: 25px;
+    }
+
+    .profileImage {
+      display: flex;
+    }
+  }
+  .user-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .user-preview a {
+    text-decoration: none;
+  }
+}
+
+details > summary {
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+}

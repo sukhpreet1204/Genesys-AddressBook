@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    height: 100vh;
+}
+
+.user-list {
+    flex:25%;
+    border-right: 1px solid grey;
+}
+
+.user-details{
+    flex:75%;
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:wght@300&family=Train+One&display=swap");
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #333;
+}
+
+.App {
+  height: 100vh;
+  display: inline;
+}
