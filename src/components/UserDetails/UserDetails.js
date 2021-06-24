@@ -70,7 +70,7 @@ const UserDetails = ({userData}) => {
                <><section className="personal-details">
                     <article className="profile-picture">
                         <img className="avatar" 
-                            src={avatar} alt={"Profile picture"}
+                            src={avatar} alt="Profile picture"
                         />
                         
                         

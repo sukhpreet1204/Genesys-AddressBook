@@ -265,6 +265,10 @@ const EditUser = () => {
                     value={ institution }
                     onChange={(e) => setInstitution(e.target.value)}
                 />
+                {Object.keys(institutionErr).map((key) => {
+                    return <div style={{color:"red"}}>{institutionErr[key]}</div>
+                })}
+
         
                  <label>Start Year:</label>
                 <input
