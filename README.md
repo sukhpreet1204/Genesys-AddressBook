@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 ### `npx json-server --watch data/api/people.json --port 8080`
 
 Runs the JSON server in the development mode.\
-Open [http://localhost:8080/people] to view it in the browser.
+Open [http://localhost:8080/people](http://localhost:8080/people) to view it in the browser.
 
 ### `npm test`
 
