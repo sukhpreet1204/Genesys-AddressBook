@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![UserDetails](https://user-images.githubusercontent.com/84335966/123271956-3b31d980-d4f9-11eb-9a98-718f3467d2ff.png)
 
+## App Functionality
+An Address Book that displays the User List and User Profile details of each user.\
+You can Create new Users, Edit exisiting users and Delete Users.
+
 ## Available Scripts
 
 In the project directory, you can run:
